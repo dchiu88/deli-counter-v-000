@@ -10,7 +10,7 @@ def line(array)
     message += " #{index.to_i+1}. #{value}"
   end
   puts "#{message}"
-  end 
+  end
 end
 
 def take_a_number(array, name)
@@ -23,7 +23,7 @@ end
 def now_serving(array)
   if array.empty? == true
     puts "There is nobody waiting to be served!"
-  elsif array.empty? == false
+  else
     puts "Currently serving #{array.shift}."
   end
 end
